@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/complib_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/compscreen"
+    tools:context=".ComplibScreen">
+
+    <TextView
+        android:id="@+id/tv_comp_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/space_mono"
+        android:text="@string/inputpass"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_binary_pass"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/space_mono"
+        android:gravity="center"
+        android:text="@string/binarypass"
+        android:textColor="@color/white"
+        android:layout_below="@id/tv_comp_screen"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/et_comp_pass"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="pass"
+        android:layout_below="@id/tv_comp_screen"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="70dp"
+        android:fontFamily="@font/space_mono"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_design_bandw"
+        />
+
+    <Button
+        android:id="@+id/btn_complib_screen_to_complib"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/arrowleft"
+        android:layout_alignParentBottom="true"
+        app:backgroundTint="@null"
+        android:fontFamily="serif-monospace"
+        android:textSize="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_enter_pass"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_comp_screen"
+        android:layout_marginTop="135dp"
+        android:layout_toRightOf="@id/et_comp_pass"
+        android:background="@drawable/btn_design_bandw"
+        app:backgroundTint="@null"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/space_mono"
+        android:textSize="10dp"
+        android:text="@string/enter" />
+
+    <Button
+        android:id="@+id/btn_open_image"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/google"
+        android:visibility="invisible"
+        app:backgroundTint="@null"
+         />
+
+    <Button
+        android:id="@+id/btn_open_dialog"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/btn_open_image"
+        android:background="@drawable/windowsxp"
+        android:visibility="invisible"
+        app:backgroundTint="@null"
+        />
+</RelativeLayout>

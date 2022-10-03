@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/estrogonofe"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="@string/app_name"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_design"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/btn_design_3d"
+        android:fontFamily="serif-monospace"
+        android:text="start"
+        android:textSize="40dp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/btn_credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="@string/credits"
+        android:textSize="40dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/btn_design_3d"
+        app:backgroundTint="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_start"/>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="@string/reset"
+        android:textSize="40dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/btn_design_3d"
+        app:backgroundTint="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_credits"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

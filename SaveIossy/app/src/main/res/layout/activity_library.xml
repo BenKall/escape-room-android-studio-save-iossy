@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/library"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/libarrarydoor2"
+    tools:context=".Library">
+
+    <TextView
+        android:id="@+id/tv_secret_code"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"
+        android:fontFamily="serif-monospace"
+        android:visibility="invisible"
+        android:text="@string/secretcode" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="188dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/metalback"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <CheckBox
+            android:id="@+id/cb1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/redlight"
+            android:theme="@style/invis_checkbox"
+             />
+
+        <CheckBox
+            android:id="@+id/cb2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/redlight"
+            android:theme="@style/invis_checkbox"
+             />
+
+        <CheckBox
+            android:id="@+id/cb3"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/redlight"
+            android:theme="@style/invis_checkbox"
+             />
+
+        <CheckBox
+            android:id="@+id/cb4"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/redlight"
+            android:theme="@style/invis_checkbox"
+             />
+
+        <CheckBox
+            android:id="@+id/cb5"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/redlight"
+            android:theme="@style/invis_checkbox"
+             />
+
+        <CheckBox
+            android:id="@+id/cb6"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:enabled="false"
+            android:background="@drawable/greylight"
+            android:theme="@style/invis_checkbox"
+            />
+    </RadioGroup>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cricImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@id/rg"
+        android:src="@drawable/cow"
+        app:border_color="@color/black"
+        app:border_width="2dp"
+         />
+
+    <RadioGroup
+        android:id="@+id/rgcircle"
+        android:layout_width="136dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/cricImage"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/metalback"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_cow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif-monospace"
+            android:theme="@style/orange_checkbox"
+            android:text="@string/cow" />
+
+        <RadioButton
+            android:id="@+id/rb_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif-monospace"
+            android:theme="@style/orange_checkbox"
+            android:text="@string/cat" />
+
+        <RadioButton
+            android:id="@+id/rb_milk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif-monospace"
+            android:theme="@style/orange_checkbox"
+            android:text="@string/milk" />
+
+        <RadioButton
+            android:id="@+id/rb_man"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif-monospace"
+            android:theme="@style/orange_checkbox"
+            android:text="@string/man" />
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/sw"
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/metalback"
+        android:checked="true"
+        android:text="@string/lights"
+        android:textColor="@color/black"
+        android:fontFamily="serif-monospace"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:theme="@style/light_switch"
+        android:layout_below="@+id/rgcircle"
+         />
+
+    <Button
+        android:id="@+id/btn_lock_to_library"
+        android:layout_width="144dp"
+        android:layout_height="180dp"
+        android:background="@drawable/lock"
+        android:layout_toLeftOf="@id/sw"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="70dp"
+        app:backgroundTint="@null"
+        />
+
+    <Button
+        android:id="@+id/btn_library_to_appcor"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/arrowleft"
+        android:layout_alignParentBottom="true"
+        app:backgroundTint="@null"
+        android:fontFamily="serif-monospace"
+        android:textSize="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_library_to_in_library"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/arrowfront"
+        android:layout_alignParentBottom="true"
+        app:backgroundTint="@null"
+        android:fontFamily="serif-monospace"
+        android:visibility="invisible"
+        android:textSize="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+</RelativeLayout>

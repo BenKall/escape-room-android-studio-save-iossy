@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/estrogonofe"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="@string/madeby"
+        android:textSize="55dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/btn_design_bandw"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_final_clue"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:background="#00000000"
+        android:fontFamily="serif-monospace"
+        android:textColorHighlight="#00FFFFFF"
+        android:textColorLink="#00FFFFFF"
+        android:layout_marginTop="380dp"
+        android:textSize="40dp"
+        android:layout_marginLeft="200dp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/btn_credits_to_main"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/arrowleft"
+        app:backgroundTint="@null"
+        android:fontFamily="serif-monospace"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginRight="250dp"
+        android:text="@string/back"
+        android:layout_below="@+id/btn_final_clue"/>
+
+
+</RelativeLayout>

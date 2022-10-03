@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".EndScreen">
+
+    <TextView
+        android:id="@+id/tv_dis_player_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/tv_end_screen"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="serif-monospace"
+        android:backgroundTint="#00000000"
+        android:textColor="@color/white"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_end_screen"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="serif-monospace"
+        android:backgroundTint="#00000000"
+        android:text="@string/end"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btn_end_screen_to_main"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:background="@drawable/arrowright"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_end_screen"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="10dp"
+        app:backgroundTint="@null"
+        android:text="@string/backtomain" />
+
+</RelativeLayout>

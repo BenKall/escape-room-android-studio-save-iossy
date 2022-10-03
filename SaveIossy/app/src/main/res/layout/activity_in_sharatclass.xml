@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/phone"
+    tools:context=".InSharatclass">
+
+    <Button
+        android:id="@+id/btn_coffin"
+        android:layout_width="120dp"
+        android:layout_height="240dp"
+        android:layout_centerVertical="true"
+        app:backgroundTint="@null"
+        android:background="@drawable/coffin"
+        />
+
+    <TextView
+        android:id="@+id/tv_phone_pass"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="..||"
+        android:textSize="30dp"
+        android:text=""
+        android:layout_above="@id/tl"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="190dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_design"
+        />
+
+    <TableLayout
+        android:id="@+id/tl"
+        android:layout_width="120dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="170dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            >
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=" "
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_design_round"
+                 />
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=" "
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_design_round"
+                />
+
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=" "
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_design_round"
+                 />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/btn_4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=" "
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_design_round"/>
+
+            <Button
+                android:id="@+id/btn_5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=" "
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_design_round"/>
+
+            <Button
+                android:id="@+id/btn_6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=" "
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_design_round"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btn_7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=" "
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_design_round"/>
+
+            <Button
+                android:id="@+id/btn_8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=" "
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_design_round"/>
+
+            <Button
+                android:id="@+id/btn_9"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=" "
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_design_round"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btn_r"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=" "
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_design_round"
+                android:drawableBottom="@drawable/reset"/>
+
+            <Button
+                android:id="@+id/btn_0"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=" "
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_design_round"/>
+
+            <Button
+                android:id="@+id/btn_e"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text=" "
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_design_round"
+                android:drawableBottom="@drawable/enter"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tv_hex_reiddle"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/tl"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/btn_design_bandw"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="@string/hexriddle"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/btn_in_sharatclass_to_sharatclass"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/arrowleft"
+        android:layout_alignParentBottom="true"
+        app:backgroundTint="@null"
+        android:fontFamily="serif-monospace"
+        android:textSize="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/design_default_color_background</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="colorAccent">@color/cardview_shadow_end_color</item>
+    </style>
+
+    <style name="invis_checkbox" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#00000000</item>
+        <item name="android:textColorSecondary">#00000000</item>
+    </style>
+
+    <style name="orange_checkbox" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@android:color/holo_red_light</item>
+        <item name="android:textColorSecondary">@android:color/holo_orange_dark</item>
+    </style>
+
+    <style name="light_switch" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:textColorPrimaryDisableOnly">@android:color/holo_red_dark</item>
+        <item name="android:colorControlActivated">@android:color/holo_orange_dark</item>
+        <item name="android:colorForeground">@android:color/holo_red_dark</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+    </style>
+
+    <style name="switches" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:textColorPrimaryDisableOnly">@android:color/holo_purple</item>
+        <item name="android:colorControlActivated">@android:color/holo_purple</item>
+        <item name="android:colorForeground">@android:color/holo_purple</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+    </style>
+
+    <style name="foodRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/food_rating_bar_full</item>
+        <item name="android:minHeight">60dip</item>
+        <item name="android:maxHeight">64dip</item>
+    </style>
+</resources>

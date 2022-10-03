@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Save Iossy</string>
+    <string name="start">Start</string>
+    <string name="back">Back</string>
+    <string name="credits">Credits</string>
+    <string name="serverroom">Server Room</string>
+    <string name="applicationroom">Application Room</string>
+    <string name="library">Library</string>
+    <string name="cow">Cow</string>
+    <string name="cat">Cat</string>
+    <string name="milk">Milk</string>
+    <string name="man">Man</string>
+    <string name="lights">Light ON/OFF</string>
+    <string name="enter">Enter</string>
+    <string name="lettercode">A</string>
+    <string name="reset">Reset game</string>
+    <string name="backtomain">Back to main</string>
+    <string name="inputpass">Input Password:</string>
+    <string name="YO">YO</string>
+    <string name="FA">FA</string>
+    <string name="RO">RO</string>
+    <string name="GA">GA</string>
+    <string name="pass">pass</string>
+    <string name="binarypass">11010111010011110</string>
+    <string name="hexriddle">1B = ..  F = ||</string>
+    <string name="finalhint">Go to the credits, press on the dot of the i</string>
+    <string name="txt1">You enter the application room,it is dark and you cant see anything</string>
+    <string name="txt2">Among the darkness you finally find a light switch</string>
+    <string name="txt3">but when you pressed it...</string>
+    <string name="txt4">the class did not lit up, but a monitor, you approach it</string>
+    <string name="madeby">Made by: Ben Kallush the Brazilay</string>
+    <string name="secretcode">cow cat cow milk man cat <br /> the light resets</string>
+    <string name="end">So you did it huh? <br /> Congrats I guess.... <br /> but you lost... <br /> no one has locked iossy. <br /> all you did now was pointless,<br /> a game <br /> the truth is that... <br /> I AM IOSSY <br /> I simply made this to <br /> stall for time while <br /> I eat all of your Stroganoff... <br /> I am sorry</string>
+    <string name="intro">Yona has locked Iossy in the application classroom, Iossy needs your help, now it is up to you to SAVE IOSSY before his Stroganoff gets cold,good luck <br /> &lt;3 </string>
+
+</resources>

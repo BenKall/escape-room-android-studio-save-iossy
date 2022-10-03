@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".InAppclass">
+
+    <TextView
+        android:id="@+id/tv_msg_1"
+        android:layout_width="290dp"
+        android:layout_height="56dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/adamina"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/txt1"
+        android:textColor="#00FFFF" />
+
+    <TextView
+        android:id="@+id/tv_msg_2"
+        android:layout_width="290dp"
+        android:layout_height="56dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/adamina"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/tv_msg_1"
+        android:text="@string/txt2"
+        android:visibility="invisible"
+        android:textColor="#00FFFF"
+        />
+
+    <TextView
+        android:id="@+id/tv_msg_3"
+        android:layout_width="290dp"
+        android:layout_height="56dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/adamina"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/tv_msg_2"
+        android:text="@string/txt3"
+        android:visibility="invisible"
+        android:textColor="#00FFFF"
+        />
+
+    <ImageView
+        android:id="@+id/iv_glowing"
+        android:layout_width="184dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/tv_msg_3"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/glowcomp" />
+
+    <TextView
+        android:id="@+id/tv_msg_4"
+        android:layout_width="290dp"
+        android:layout_height="56dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/adamina"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/iv_glowing"
+        android:text="@string/txt4"
+        android:visibility="invisible"
+        android:textColor="#00FFFF"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_in_appclass"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#00FFFFFF"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_msg_4"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/arrowright" />
+
+</RelativeLayout>
